@@ -10,3 +10,11 @@ function edad(age = prompt("Ingrese su edad")){
     }
 }
 edad()
+
+function salario(hour = parseFloat(prompt("Ingrese sus horas trabajadas"))){
+    const SAL = 50;
+    let pago = hour*SAL
+    document.write(`Su salario es de: ${pago}`)
+}
+
+salario()
