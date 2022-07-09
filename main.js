@@ -18,3 +18,7 @@ function salario(hour = parseFloat(prompt("Ingrese sus horas trabajadas"))){
 }
 
 salario()
+
+const objeto = {
+    
+}
